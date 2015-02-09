@@ -1,0 +1,39 @@
+{
+  "name": "angularjs-utilities",
+  "version": "0.0.1", 
+  "description": "A collection of helpful utilities for AngularJS used in Axon's projects.", 
+  "authors": [
+    { "name": "Axon Interactive", "email": "theteam@axoninteractive.ca" },
+    { "name": "Jeff Rose",        "email": "jrose0@gmail.com"           },
+    { "name": "James Zinger",     "email": "dev@jameszinger.com"        }
+  ],
+  "homepage": "https://github.com/AxonInteractive/angularjs-utilities",
+  "license": "MIT",
+  "main": "build/angularjs-utilities.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxonInteractive/angularjs-utilities.git"
+  },
+  "dependencies": {
+    "angular"                   : "~1.2.26",
+    "angular-ui-bootstrap-bower": "~0.11.2",
+    "angular-ui-router"         : "~0.2.11",
+    "bootstrap-css-only"        : "~3.2.0"
+  },
+  "devDependencies": {},
+  "ignore": [
+    "app/**/.*",
+    "build/angularjs-utilities.min.js", 
+    "bower_components",
+    "node_modules",
+    ".gitignore", 
+    ".jshintrc", 
+    "gulpfile.js", 
+    "package.json",
+    "*.log"
+  ],
+  "bugs": {
+    "email": "theteam@axoninteractive.ca",
+    "url": "https://github.com/AxonInteractive/angularjs-utilities/issues"
+  }
+}
