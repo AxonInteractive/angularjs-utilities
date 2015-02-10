@@ -1,11 +1,20 @@
 {
   "name": "angularjs-utilities",
-  "version": "0.0.1", 
-  "description": "A collection of helpful utilities for AngularJS used in Axon's projects.", 
+  "version": "0.0.2",
+  "description": "A collection of helpful utilities for AngularJS used in Axon's projects.",
   "authors": [
-    { "name": "Axon Interactive", "email": "theteam@axoninteractive.ca" },
-    { "name": "Jeff Rose",        "email": "jrose0@gmail.com"           },
-    { "name": "James Zinger",     "email": "dev@jameszinger.com"        }
+    {
+      "name": "Axon Interactive",
+      "email": "theteam@axoninteractive.ca"
+    },
+    {
+      "name": "Jeff Rose",
+      "email": "jrose0@gmail.com"
+    },
+    {
+      "name": "James Zinger",
+      "email": "dev@jameszinger.com"
+    }
   ],
   "homepage": "https://github.com/AxonInteractive/angularjs-utilities",
   "license": "MIT",
@@ -15,20 +24,20 @@
     "url": "https://github.com/AxonInteractive/angularjs-utilities.git"
   },
   "dependencies": {
-    "angular"                   : "~1.3.13",
+    "angular": "~1.3.13",
     "angular-ui-bootstrap-bower": "~0.12.0",
-    "angular-ui-router"         : "~0.2.13",
-    "bootstrap-css-only"        : "~3.3.2"
+    "angular-ui-router": "~0.2.13",
+    "bootstrap-css-only": "~3.3.2"
   },
   "devDependencies": {},
   "ignore": [
     "app/**/.*",
-    "build/angularjs-utilities.min.js", 
+    "build/angularjs-utilities.min.js",
     "bower_components",
     "node_modules",
-    ".gitignore", 
-    ".jshintrc", 
-    "gulpfile.js", 
+    ".gitignore",
+    ".jshintrc",
+    "gulpfile.js",
     "package.json",
     "*.log"
   ],
