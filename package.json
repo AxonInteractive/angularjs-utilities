@@ -1,6 +1,6 @@
 {
-  "name": "angularjs-utilities",
-  "version": "0.0.1",
+  "name": "axon-angularjs-utilities",
+  "version": "0.0.2",
   "description": "A collection of helpful utilities for AngularJS used in Axon's projects.",
   "contributors": [
     { "name": "Axon Interactive", "email": "theteam@axoninteractive.ca" },
