@@ -40,6 +40,14 @@ Detect navigation events and warn the user before they can lose their data or th
 
 A generic Okay or Okay/Cancel modal suitable for most notifications.
 
+## Usage
+
+This module is available from the Bower package registry. Install it with the following command:
+
+  bower install axon-angularjs-utilities
+
+Once installed, simply point your build process to `<bower_components>/axon-angularjs-utilities/build/axon-angularjs-utilities.js` and `<bower_components>/axon-angularjs-utilities/build/axon-angularjs-utilities.css`.
+
 ## Dependencies
 
 ### UI Bootstrap (ui.bootstrap) 

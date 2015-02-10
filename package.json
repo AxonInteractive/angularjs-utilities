@@ -3,9 +3,18 @@
   "version": "0.0.2",
   "description": "A collection of helpful utilities for AngularJS used in Axon's projects.",
   "contributors": [
-    { "name": "Axon Interactive", "email": "theteam@axoninteractive.ca" },
-    { "name": "Jeff Rose",        "email": "jrose0@gmail.com"           },
-    { "name": "James Zinger",     "email": "dev@jameszinger.com"        }
+    {
+      "name": "Axon Interactive",
+      "email": "theteam@axoninteractive.ca"
+    },
+    {
+      "name": "Jeff Rose",
+      "email": "jrose0@gmail.com"
+    },
+    {
+      "name": "James Zinger",
+      "email": "dev@jameszinger.com"
+    }
   ],
   "homepage": "https://github.com/AxonInteractive/angularjs-utilities",
   "license": "MIT",
@@ -21,7 +30,7 @@
     "grunt-contrib-cssmin": "^0.12.1",
     "grunt-contrib-jshint": "^0.11.0",
     "grunt-contrib-uglify": "^0.7.0",
-    "grunt-contrib-watch" : "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1"
   },
   "scripts": {}
 }

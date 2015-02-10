@@ -2,11 +2,6 @@
 node_modules
 bower_components
 
-# Build artifacts
-build
-production
-temp
-
 # Sublime files
 *.sublime-project
 *.sublime-workspace

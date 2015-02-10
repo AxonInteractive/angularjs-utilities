@@ -31,21 +31,20 @@
   },
   "devDependencies": {},
   "ignore": [
-    "app/**/.*",
-    "build/angularjs-utilities.min.js",
-    "bower_components",
-    "node_modules",
     ".gitignore",
+    ".npmignore",
     ".jshintrc",
+    "*.log",
+    "app/**/.*",
+    "bower_components",
+    "build/angularjs-utilities.min.js",
+    "node_modules",
     "gulpfile.js",
-    "package.json",
-    "*.log"
+    "package.json"
   ],
   "bugs": {
     "email": "theteam@axoninteractive.ca",
     "url": "https://github.com/AxonInteractive/angularjs-utilities/issues"
   },
-  "keywords": [
-    ""
-  ]
+  "keywords": []
 }
