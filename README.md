@@ -32,7 +32,7 @@ Set up generic error phrasing for all errorMessage directives in your app.
 
 #### $navigationListener 
 
-Detect and wanr the user before navigation events that could result in them losing data or losing their work.
+Detect navigation events and warn the user before they can lose their data or their work.
    
 ### Modals
 
