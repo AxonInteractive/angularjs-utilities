@@ -18,7 +18,7 @@
   ],
   "homepage": "https://github.com/AxonInteractive/angularjs-utilities",
   "license": "MIT",
-  "main": "build/angularjs-utilities.js",
+  "main": "build/axon-angularjs-utilities.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/AxonInteractive/angularjs-utilities.git"
