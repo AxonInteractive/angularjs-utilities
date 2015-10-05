@@ -20,7 +20,7 @@ A common error message format to make error handling uniform.
 
 ### Filters
 
-#### TrunateText 
+#### TruncateText 
 
 Limit text to a specific number of characters for space-limited display.
 
