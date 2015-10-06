@@ -2,7 +2,7 @@
 
   'use strict';
 
-  var app = angular.module( 'ca.axoninteractive.AngularJS.Utilities' );
+  var app = angular.module( 'axon-angularjs-utilities' );
 
   app.controller( 'GenericModalController', [
     '$scope', '$state', '$modalInstance', '$modalArgs', '$sce',

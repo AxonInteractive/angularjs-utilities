@@ -1,0 +1,19 @@
+
+<h1>Axon AngularJS Utilities Test</h1>
+
+<p>{{ testVal }}</p>
+
+<h2>TruncateText filter</h2>
+<p>{{ 'Does TruncateText cut off this text?' | TruncateText:true:35:'...' }}</p>
+
+<h2>error-message Directive</h2>
+<error-message></error-message>
+
+<h2>compile Directive (uses $sce)</h2>
+<p compile="compileText"></p>
+
+<h2>$navigationListener service</h2>
+<a href="https://google.com">Try to navigate away...</a>
+
+<h2>GenericModal</h2>
+<button ng-click="onModalOpenClick()">Open modal...</button>

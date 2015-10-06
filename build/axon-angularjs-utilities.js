@@ -1,4 +1,4 @@
-/*! axon-angularjs-utilities - v0.0.2 - 2015-02-10 */
+/*! axon-angularjs-utilities - v0.0.8 - 2015-10-06 */
 
 
 ////////////////////////////////////////
@@ -9,8 +9,8 @@
 
   'use strict';
 
-  angular.module( 'ca.axoninteractive.AngularJS.Utilities', [
-    'ui.bootstrap.modal',
+  angular.module( 'axon-angularjs-utilities', [
+    'ui.bootstrap',
     'ui.router'
   ] );
 
@@ -20,33 +20,37 @@
 
   'use strict';
 
-  var app = angular.module( 'ca.axoninteractive.AngularJS.Utilities' );
+  var app = angular.module( 'axon-angularjs-utilities' );
 
-  app.directive( 'compile', function ( $compile ) {
+  app.directive( 'compile', [ 
+    '$compile', 
+    function ( $compile ) {
 
-    // directive factory creates a link function
-    return function ( scope, element, attrs ) {
-      
-      scope.$watch( 
-        function ( scope ) {
-          // watch the 'compile' expression for changes
-          return scope.$eval( attrs.compile );
-        }, 
-        function ( value ) {
-          // when the 'compile' expression changes
-          // assign it into the current DOM
-          element.html( value );
-          // compile the new DOM and link it to the current
-          // scope.
-          // NOTE: we only compile .childNodes so that
-          // we don't get into infinite loop compiling ourselves
-          $compile( element.contents() )( scope );
-        } 
-      );
+      // directive factory creates a link function
+      return function ( scope, element, attrs ) {
+        
+        scope.$watch( 
+          function ( scope ) {
+            // watch the 'compile' expression for changes
+            return scope.$eval( attrs.compile );
+          }, 
+          function ( value ) {
+            // when the 'compile' expression changes
+            // assign it into the current DOM
+            element.html( value );
+            // compile the new DOM and link it to the current
+            // scope.
+            // NOTE: we only compile .childNodes so that
+            // we don't get into infinite loop compiling ourselves
+            $compile( element.contents() )( scope );
+          } 
+        );
 
-    };
+      };
 
-  } );
+    } 
+
+  ] );
 
 } )();
 
@@ -54,7 +58,7 @@
 
   'use strict';
 
-  var app = angular.module( 'ca.axoninteractive.AngularJS.Utilities' );
+  var app = angular.module( 'axon-angularjs-utilities' );
 
   app.directive( 'errorMessage', [
     '$errorMessage', '$sce',
@@ -120,7 +124,7 @@
 
   'use strict';
 
-  var app = angular.module( 'ca.axoninteractive.AngularJS.Utilities' );
+  var app = angular.module( 'axon-angularjs-utilities' );
 
   app.filter( 'TruncateText', [
     function () {
@@ -172,7 +176,7 @@
 
   'use strict';
 
-  var app = angular.module( 'ca.axoninteractive.AngularJS.Utilities' );
+  var app = angular.module( 'axon-angularjs-utilities' );
 
   app.factory( '$errorMessage', [
     function () {
@@ -249,7 +253,7 @@
 
   'use strict';
 
-  var app = angular.module( 'ca.axoninteractive.AngularJS.Utilities' );
+  var app = angular.module( 'axon-angularjs-utilities' );
 
   app.factory( '$navigationListener', [
     '$window', '$modal', '$state',
@@ -417,7 +421,7 @@
 
   'use strict';
 
-  var app = angular.module( 'ca.axoninteractive.AngularJS.Utilities' );
+  var app = angular.module( 'axon-angularjs-utilities' );
 
   app.controller( 'GenericModalController', [
     '$scope', '$state', '$modalInstance', '$modalArgs', '$sce',

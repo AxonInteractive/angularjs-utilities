@@ -8,7 +8,7 @@
   'use strict';
 
   angular.module( 'axon-angularjs-utilities', [
-    'ui.bootstrap.modal',
+    'ui.bootstrap',
     'ui.router'
   ] );
 
