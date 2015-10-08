@@ -49,17 +49,10 @@ module.exports = function ( grunt ) {
 
     'copy': {
       example: {
-        files: [ {
         cwd: 'app/',
         expand: true,
         src: [ '**/*.html' ], 
         dest: 'example/'
-        }, {
-        cwd: 'app/',
-        expand: true,
-        src: [ '**/*.html' ], 
-        dest: 'example/'
-        } ]
       },
       html: {
         cwd: 'app/',
